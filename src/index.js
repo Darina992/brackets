@@ -8,7 +8,7 @@ module.exports = function check(str, bracketsConfig) {
   for(let i = 0; i <str.length; i++){
     let current = str[i];
     //console.log(current);
-    if (current === '|') {
+    if (current === '|' || current === '8' || current === '7') {
       let top = stack[stack.length-1];
       if (top !== current){
         stack.push(current);
