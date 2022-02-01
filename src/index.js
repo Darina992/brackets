@@ -38,9 +38,4 @@ module.exports = function check(str, bracketsConfig) {
 
   }
    return (stack.length === 0)
-
-
-}
- return (stack.length === 0)
-
 }
